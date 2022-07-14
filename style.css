@@ -1,0 +1,13 @@
+.nav-cont {
+display: flex;
+list-style-type: none;
+justify-content: center;
+flex-wrap: wrap;
+background-color: #ff7675;
+}
+
+.nav-item {
+padding: 1em;
+
+}
+

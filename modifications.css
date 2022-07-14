@@ -1,0 +1,141 @@
+p {margin-bottom:0, margin-right:0, margin-top:0, margin-left:0}
+
+b {font-family: sans-serif; }
+
+.intro {font-family: sans-serif; 
+
+       color: white;}
+
+.modifications {font-family: sans-serif;
+
+                color: white;}
+
+.intro2 {font-family: sans-serif; 
+
+         color: white;}
+
+.aboutme {font-family: sans-serif; 
+
+          color: white;}
+
+.aside {font-family: sans-serif; 
+
+         color: white;}
+
+.aside2 {font-family: sans-serif; 
+
+         color: white;}
+
+.aside3 {font-family: sans-serif; 
+
+         color: white;}
+
+.GMU {font-family: sans-serif; 
+
+      color: white;}
+
+.Graduation {font-family: sans-serif; 
+
+             color: white;}
+
+.skillsandexperiences {font-family: sans-serif; 
+
+                       color: white;}
+
+.skillsandexperiences2 {font-family: sans-serif; 
+
+                        color: white;}
+
+.career {font-family: sans-serif; 
+
+        color: white;}
+
+img {
+border: 2px solid #ddd;
+border-radius: 4px;
+padding: 5px;
+width: 150px;
+}
+
+.copyright {
+
+text-emphasis: double-circle red;
+
+}
+
+body {background-color: pink;}
+
+h1 {color: white;}
+
+h2 {color: white;}
+
+h3 {color: white;}
+
+p.intro {
+
+color: white;
+
+}
+
+p.website {
+
+color: white;
+
+}
+
+p.copyright {
+
+color: white;
+
+}
+
+p.novel {
+
+color: white;
+
+}
+
+figcaption.caption {
+
+color: white;
+
+}
+
+
+p.more {
+
+color: white;
+
+}
+
+p.Skillstuff {
+
+color: white;
+
+}
+
+p.career {
+
+color: white;
+
+}
+
+p.skillsandexperiences2 {
+
+color: white;
+
+}
+
+.red-div {
+
+background-color: red;
+width: 500px;
+padding-left:25px;
+padding-right:25px;
+padding-top:100px;
+padding-bottom: 25px;
+border: 5px solid black;
+
+
+
+}
