@@ -1,0 +1,87 @@
+<html>
+<head>
+<meta charset="UTF=8" />
+<meta name="viewport" content="width=device-width, initialscale=1.0">
+<link href="modifications.css" rel="stylesheet" />
+<link href="style.css" rel="stylesheet" />
+<title> My Portfolio </title>
+</head>
+
+<body>
+<nav>
+<ul class="nav-cont">
+<li class="nav-item"><a href="file:///C:/Users/Lauren/Desktop/2022%20Homework/practicesite/index.html"> Home </a></li>
+<li class="nav-item"><a href="file:///C:/Users/Lauren/Desktop/2022%20Homework/practicesite/about.html"> About </a></li>
+<li class="nav-item"><a href="file:///C:/Users/Lauren/Desktop/2022%20Homework/practicesite/portfolio.html"> Portfolio</a></li>
+<li class="nav-item"><a href="file:///C:/Users/Lauren/Desktop/2022%20Homework/practicesite/contact.html"> Contact </a></li>
+</ul>
+</nav>
+<br>
+</br>
+
+<section>
+<h1 class = "title"> Portfolio </h1> <br>
+</br>
+
+<p class="intro2"> The following pieces of writing are mostly things that I have posted online or in some other electronic form. Most of them are short pieces I have done for writing community "bingos" (basically, having a bingo card you fill out different prompts on. It's like offline bingo, only, in my opinion, more fun and fulfilling).
+I'll label the ones that I need to label with a content warning, if necessary. </p>
+</section>
+
+<section>
+<h2 class = "books"> Novels: </h2> </br>
+
+<iframe width="500" height="280" frameborder="0" allowfullscreen="" src="https://embed.wattpad.com/story/91715476" ></iframe>
+<script>
+$(function () {
+
+    $("iframe").not(":has([src])").each(function () {
+
+    var ifrm = this;
+
+    ifrm = (ifrm.contentWindow) ? ifrm.contentWindow : (ifrm.contentDocument.document) ? ifrm.contentDocument.document : ifrm.contentDocument;
+
+    ifrm.document.open();
+    ifrm.document.write($(this).attr("alt"));
+    ifrm.document.close();
+
+    });
+
+});
+</script>
+<br>
+</br>
+</section>
+
+<article>
+<p class = "novel"> Basically, this is a novel I wrote back in 2016 for NaNoWriMo. I don't know if I'm going to make any follow-ups to it, but I'm very proud of it. </p>
+</article>
+
+<article>
+<h2 class = "short"> Shorter pieces </h2> <br>
+</br>
+
+<a href = "https://archiveofourown.org/works/28602813"> Directive </a> by idrilswritings (idrilhadhafang) <br>
+</br>
+
+<a href = "https://archiveofourown.org/works/23975737"> When All Your Wishes Come True </a> by idrilswritings (idrilhadhafang) <br>
+</br>
+
+<a href = "https://archiveofourown.org/works/22669252"> The Judge and The Accused </a> by idrilswritings (idrilhadhafang) <br>
+</br>
+
+<a href = "https://archiveofourown.org/works/22007641"> Patchwork </a> by idrilswritings (idrilhadhafang) <br>
+</br>
+
+<a href = "https://archiveofourown.org/works/19793500"> Strange Bedfellows </a> by idrilswritings (idrilhadhafang) <br>
+</br>
+
+<a href = "https://archiveofourown.org/works/22439362"> The Sea Witch </a> by idrilswritings (idrilhadhafang) <br>
+</br>
+
+
+
+<p class = "copyright"> © Copyright, Lauren Vogel </p>
+</article>
+</body>
+
+</html>
